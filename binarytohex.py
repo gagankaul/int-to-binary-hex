@@ -1,3 +1,4 @@
+
 # A program to convert integers into binary and hexadecimal numbers
 
 print("Welcome to the Binary/Hexadecimal Converter App\n")
@@ -36,8 +37,8 @@ for i in range(start_num-1, end_num):
 
 # Printing the complete list
 
-input("Press Enter to see all values from 1 to 40.")
-print("Decimal----Binary----Hexadecimal")
+input("\nPress Enter to see all values from 1 to " + str(num) + ":")
+print("Integer----Binary----Hexadecimal")
 print("----------------------------------------------------")
 for dec_num, bin_num, hex_num in zip(dec_list, bin_list, hex_list):
     print(str(dec_num) + "----" + str(bin_num) + "----" + str(hex_num))
